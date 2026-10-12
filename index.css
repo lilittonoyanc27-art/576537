@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bordeaux: #650D24;
+    --color-dark-red: #A61B2B;
+    --color-orange: #F47B20;
+    --color-gold: #FFD166;
+    --color-cream: #FFF4E3;
+  }
+
+  body {
+    background-color: #3b0613;
+    background-image: 
+      radial-gradient(circle at 50% 0%, rgba(244, 123, 32, 0.18) 0%, transparent 50%),
+      radial-gradient(circle at 10% 30%, rgba(166, 27, 43, 0.25) 0%, transparent 60%),
+      radial-gradient(circle at 90% 70%, rgba(101, 13, 36, 0.4) 0%, transparent 70%),
+      linear-gradient(180deg, #420716 0%, #29040e 50%, #1a0208 100%);
+    background-attachment: fixed;
+    color: #FFF4E3;
+    font-family: 'Montserrat', 'Noto Sans Armenian', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-cinematic {
+    font-family: 'Cinzel', serif;
+  }
+
+  .font-armenian {
+    font-family: 'Noto Sans Armenian', 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(101, 13, 36, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: #A61B2B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #F47B20;
+}

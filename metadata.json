@@ -1,0 +1,6 @@
+{
+  "name": "El Zorro — Aprende español con el cine",
+  "description": "Aplicación interactiva para aprender español con la película El Zorro: vídeo sincronizado con subtítulos bilingües y cuestionario dinámico.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
